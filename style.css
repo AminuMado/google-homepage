@@ -1,0 +1,132 @@
+li{
+    list-style: none;
+    margin:10px 0 10px 0;
+}
+ .t-list-a {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-left: -30px;
+} 
+.t-list-b {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+} 
+ul{
+    display:flex;
+    justify-content: space-between;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a>button{
+    color:white;
+    background-color: #4285f4;
+    border: none;
+    border-radius: 4px;
+}
+a>button:hover{
+    color:white;
+    background-color: #4285f4;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px lightblue;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.apps-icon{
+    color:gray;
+    cursor: pointer;
+    font-size: larger;
+}
+.apps-icon:hover{
+    color:black;
+    
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.search-box{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 25px;
+    height: 45px;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:-50px;
+
+}
+.search-box:hover{
+    
+    box-shadow: 1px 1px 5px gray;
+}
+
+.search-box input{
+    border: none;
+    width: 90%;
+    height: 94%;
+    font-size: 25px;
+}
+.search-box input:focus-visible{
+   outline: none;
+    
+}
+.search-icon,.mic-icon{
+    color: grey;
+    cursor: pointer;
+}
+.logo{
+    height: 300px;
+    width: 450px;
+
+}
+.c-buttons{
+    margin-top: -15px;
+    
+}
+.c-buttons>button{
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+    background-color: rgb(230, 227, 227);
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid rgb(230, 227, 227);
+}
+.c-buttons>button:hover{
+    border: 1px solid gray;
+    color: black;
+    background-color: rgb(238, 235, 235);
+    border-radius: 4px;
+}
+   
+
+.bottom{
+    background-color: #ddd;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    height: fit-content;
+}
+.b-list-a {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-left: -30px;
+} 
+.b-list-b {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+} 
